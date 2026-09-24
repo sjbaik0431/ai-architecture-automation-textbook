@@ -1,0 +1,13 @@
+{
+  "project_id": "AA-DEMO-001",
+  "unit": "m",
+  "site_width_m": 30,
+  "site_depth_m": 24,
+  "width_m": 18,
+  "depth_m": 12,
+  "floors": 3,
+  "floor_height_m": 3.6,
+  "north": "+Y",
+  "origin": "site centre",
+  "revision": "r01"
+}

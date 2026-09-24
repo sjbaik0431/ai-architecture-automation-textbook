@@ -1,0 +1,23 @@
+{
+  "engine": "Blender 5.2.2 LTS",
+  "input": {
+    "project_id": "AA-DEMO-001",
+    "unit": "m",
+    "site_width_m": 30,
+    "site_depth_m": 24,
+    "width_m": 18,
+    "depth_m": 12,
+    "floors": 3,
+    "floor_height_m": 3.6,
+    "north": "+Y",
+    "origin": "site centre",
+    "revision": "r01"
+  },
+  "computed": {
+    "footprint_m2": 216,
+    "floor_area_sum_m2": 648,
+    "height_m": 10.8
+  },
+  "objects": 86,
+  "note": "Conceptual mass. Not construction or permit drawings."
+}
