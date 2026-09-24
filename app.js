@@ -5,7 +5,7 @@ function drawMass(){
  const n=+floorInput.value,w=+widthInput.value;
  document.querySelector('#floorOut').textContent=n+'층';document.querySelector('#widthOut').textContent=w+' m';
  document.querySelector('#footprint').textContent=w*12;document.querySelector('#gross').textContent=w*12*n;document.querySelector('#height').textContent=(n*3.6).toFixed(1);
- const p=(x,y,z)=>[310+(x-y)*9,280+(x+y)*4-z*10];
+ const p=(x,y,z)=>[310+(x-y)*9,280+(x+y)*4-z*(n>4?8:10)];
  const poly=(pts,fill)=>'<polygon points="'+pts.map(v=>p(...v).join(',')).join(' ')+'" fill="'+fill+'" stroke="#93ccca" stroke-width="1.2"/>';
  let s=poly([[-15,-12,0],[15,-12,0],[15,12,0],[-15,12,0]],'#193c4b');
  for(let i=0;i<n;i++){let x=w/2,y=6,z=i*3.6,h=z+3.5;
